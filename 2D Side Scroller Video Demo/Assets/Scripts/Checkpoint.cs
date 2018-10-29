@@ -8,6 +8,7 @@ public class Checkpoint : MonoBehaviour
     private float inactivatedRotationSpeed = 100, activatedRoationSpeed = 300;
 
     [SerializeField]
+    private float inactivatedScale = 1, activatedScale = 1.5f;
 
     [SerializeField]
     private Color inactivatedColor, activatedColor;
